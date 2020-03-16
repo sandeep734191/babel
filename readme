@@ -1,0 +1,11 @@
+1) Loaders inform webpack to take a preprocessing step for every file that includes in bundle.js 
+2)install webpack using "npm i webpack"
+3)babel contains 3 modules
+    a) babel-loader : teaches babel how to work with webpack
+    b) babel-core   : knows how to take code , parse it and generate some output files
+    c) babel-preset-env : ruleset for telling babel exactly what pieces of es6/+ to look for and convert into es5
+4)styles
+    a)css loader : knows how to deal with css imports
+    b)style-loader : take css imports and adds them to html document
+
+(Note: remove .babelrc file for any errors and remove dependencies of no:3 and add @babel/core and @babel/preset-env )
